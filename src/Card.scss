@@ -1,0 +1,54 @@
+/* css for Card component */
+
+.card {
+  background-color: #fff;
+  border-radius: 0.5em;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.10);
+  padding: 1em;
+  position: relative;
+  margin-bottom: 0.5em;
+
+  .footer {
+    color: #999;
+    display: flex;
+    font-size: 0.75em;
+    justify-content: space-between;
+
+    .fas {
+      margin-right: 0.15em;
+    }
+  }
+
+  .info {
+    font-size: 0.90em;
+    margin-bottom: 1em;
+  }
+
+  .name {
+    font-size: 1.5em;
+    margin-bottom: 0.25em;
+    padding-right: 3em; /* reserve space for absolutely postioned save icon */
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .save {
+    color: #666;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+
+    &:hover {
+      color: #333;
+    }
+  }
+
+  .version {
+    color: #ccc;
+    font-size: 0.80em;
+    margin-left: 0.25em;
+  }
+}
