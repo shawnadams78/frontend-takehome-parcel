@@ -1,3 +1,27 @@
+# Ruby Gems search app
+
+### Done:
+
+- [x] Query RubyGems.org api
+- [x] Return search results in list
+- [x] Save/Unsave gems (localStorage)
+- [x] View saved gems
+- [x] Simple unit test for Card component
+
+### Missed but would be nice to have, time-permitting:
+
+- [ ] Use styled-components in place of scss
+- [ ] Loading condition in Saved view
+- [ ] Active state nav buttons
+- [ ] Nicer "Saved"/"Unsaved" notification
+
+![alt text](http://g.recordit.co/5wbtFwhxiD.gif "screenshot")
+
+
+
+
+
+
 # Teachable frontend takehome
 
 If you're reading this, you're likely a candidate for a frontend job at Teachable. You're going to be building a search application that takes a user's search query, hits the [Ruby Gems](https://rubygems.org/) search API endpoint, and displays the results in a list view with some added functionality (detailed below).
